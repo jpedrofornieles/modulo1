@@ -12,19 +12,44 @@ details, figcaption, figure, footer, header, hgroup, menu, nav, aside,section, s
 	background: transparent;
 }
 body {
-	background-color:grey;/*Fondo gris*/
+	background-color:lightslategray;/*Fondo gris brillante*/
 }
 header{
+	min-height: 40px;
 	margin-left:10%;
 	margin-right:10%;
 	background-color:black;
+	width: 80%;
 }
 /*logo RIAtec*/
-header div img{
+header img{
+	float:left;
 	/*tamaño de la imagen*/
 	width:20%;
 	height:10%;
 	/*posicionamiento de la imagen*/
-	padding-top:2%;
+	padding-top:1%;
 	padding-left:2%;
+}
+nav{
+	padding: 2%;
+	width: 70%;
+	float: right;
+}
+nav ul {
+	text-transform: uppercase;
+	float: right;
+}
+
+nav ul li {
+	float: left;
+	font-family: Arial;
+	font-weight: bold;
+	margin-right: 10px;
+}
+nav ul li a {
+	color: white;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
 }
