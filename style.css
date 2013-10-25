@@ -101,6 +101,10 @@ aside{
 	background-color: #295555;
 	text-align:center;
 } 
+#section2 h2:hover {
+	color: gray;
+	background-color: white;
+}
 #section2{
 	width:20%;
 	background-color:#800000;
@@ -117,6 +121,10 @@ aside{
 	background-color: #295555;
 	text-align:center;
 } 
+#section3 h2:hover {
+	color: gray;
+	background-color: white;
+}
 #section3{
 	width: 22%;
 	background-color:#650070;
@@ -130,6 +138,10 @@ aside{
 	border-radius:25px;
 	background-color: #295555;
 	text-align:center;
+}
+#section4 h2:hover {
+	color: gray;
+	background-color: white;
 }
 #section4{
 	width: 21%;
@@ -148,7 +160,21 @@ img.icono {
     width: 60px;
     height:60px;
 }
-
+/****articulo**********/
+#section5{
+	width:20%
+	background-color:#650070;
+	float:right;
+	margin-left:10px;
+	margin-right:10px;
+}
+#section6{
+	width:20%
+	background-color:#FF0000;
+	float:right;
+	margin-left:10px;
+	margin-right:10px;
+}
 /*********FOOTER********/
 footer{
 	margin-left:10%;
