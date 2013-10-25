@@ -1,5 +1,32 @@
+/*Inicialización del estilo a cero*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, 
+code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, canvas, 
+details, figcaption, figure, footer, header, hgroup, menu, nav, aside,section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
 body {
-
+	background-color:grey;/*Fondo gris*/
+}
+header{
+	margin-left:10%;
+	margin-right:10%;
+	background-color:black;
+}
+/*logo RIAtec*/
+header div img{
+	/*tamaño de la imagen*/
+	width:20%;
+	height:10%;
+	/*posicionamiento de la imagen*/
+	padding-top:2%;
+	padding-left:2%;
 }
 aside{
 
