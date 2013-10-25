@@ -21,35 +21,38 @@ header{
 	background-color:black;
 	width: 80%;
 }
-/*logo RIAtec*/
+/*******logo RIAtec********/
 header img{
-	float:left;
 	/*tamaño de la imagen*/
 	width:20%;
 	height:10%;
 	/*posicionamiento de la imagen*/
+	float:left;
 	padding-top:1%;
 	padding-left:2%;
 }
+/**********NAV*********/
 nav{
+	width: 70%;	/*tamaño del menú*/
+	/*posicionamiento del menú*/
 	padding: 2%;
-	width: 70%;
 	float: right;
 }
 nav ul {
-	text-transform: uppercase;
-	float: right;
+	text-transform: uppercase;/*a MAYÚSCULAS*/
+	float: right;/*posición del menú*/
 }
-
 nav ul li {
-	float: left;
+	/*letra del menú*/
 	font-family: Arial;
 	font-weight: bold;
+	/*posicionamiento de los elementos del menú*/
+	float: left;
 	margin-right: 10px;
 }
 nav ul li a {
 	color: white;
-	display: block;
+	display: block;/*tipo de caja*/
 	padding: 10px;
-	text-decoration: none;
+	text-decoration:none;/*eliminar línea inferior de las referencias*/
 }
