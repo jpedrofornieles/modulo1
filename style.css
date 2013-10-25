@@ -87,16 +87,35 @@ margin-top:10%;
 	font-size:30px;
 	text-shadow: 2px 2px #999999;
 }
+#section2 h2{
+	background-color: #295555;
+	text-align:center;
+} 
 #section2{
 	width:35%;
 	background-color:#800000;
 	float:left;
+	border-style:solid;
+	border-left-color: #000000;
+	margin-left:5px;
 }
+#section3 h2{
+	background-color: #295555;
+	text-align:center;
+} 
 #section3{
 	width: 35%;
 	background-color:#650070;
 	float:left;
+	margin-left:5px;
 }
+img.icono {
+    float: left;
+    padding-right: 10px ;
+    width: 60px;
+    height:60px;
+}
+
 /*********FOOTER********/
 footer{
 	margin-left:10%;
