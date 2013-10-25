@@ -31,7 +31,7 @@ header img{
 	padding-top:1%;
 	padding-left:2%;
 }
-/**********NAV*********/
+/**********MENÚ*********/
 nav{
 	width: 70%;	/*tamaño del menú*/
 	/*posicionamiento del menú*/
@@ -55,4 +55,35 @@ nav ul li a {
 	display: block;/*tipo de caja*/
 	padding: 10px;
 	text-decoration:none;/*eliminar línea inferior de las referencias*/
+}
+/*********ASIDE********/
+aside{
+
+border:2px solid #a1a1a1;
+padding:10px 40px; 
+border-radius:25px;
+margin-top:10%;
+
+	float:left;
+	background-color: #3399CC ;
+	height:20%;
+	width:100%;
+}
+#section1{
+	width:20%;
+	background-color:#993300;
+	float:left;
+	text-align: center;
+	font-size:30px;
+	text-shadow: 2px 2px #999999;
+}
+#section2{
+	width:35%;
+	background-color:#800000;
+	float:left;
+}
+#section3{
+	width: 35%;
+	background-color:#650070;
+	float:left;
 }
