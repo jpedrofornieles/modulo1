@@ -37,10 +37,12 @@ nav{
 	/*posicionamiento del menú*/
 	padding: 2%;
 	float: right;
+	display:inline;/*menú en línea*/
 }
 nav ul {
 	text-transform: uppercase;/*a MAYÚSCULAS*/
 	float: right;/*posición del menú*/
+	list-style: none;/*elimina la línea inferior del menú*/
 }
 nav ul li {
 	/*letra del menú*/
@@ -52,9 +54,17 @@ nav ul li {
 }
 nav ul li a {
 	color: white;
-	display: block;/*tipo de caja*/
-	padding: 10px;
+	display: block;/*elementos en caja*/
+	padding: 10px;/*separación de cada elemento*/
 	text-decoration:none;/*eliminar línea inferior de las referencias*/
+}
+nav ul li a:hover{
+	color:gold;
+	border: 1px solid;
+	border-top-color:white;
+	border-right-color:white;
+	border-left-color:black;
+	border-bottom-color:black;
 }
 /*********ASIDE********/
 aside{
@@ -86,4 +96,13 @@ margin-top:10%;
 	width: 35%;
 	background-color:#650070;
 	float:left;
+}
+/*********FOOTER********/
+footer{
+	margin-left:10%;
+	margin-right:10%;
+}
+.rojo{
+	background-color:red;
+	color:white;
 }
