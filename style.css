@@ -88,7 +88,7 @@ aside{
 	margin-left:10%;
 	margin-right:10%;
 	float:right;
-	background-color: #3399CC ;
+	background-color:lightblue ;
 	height:20%;
 	width:72%;
 }
@@ -97,7 +97,7 @@ aside{
 	padding:10px 40px; 
 	border-radius:25px;
 	width:15%;
-	background-color:#993300;
+	background-color:#00A480;
 	float:left;
 	text-align: center;
 	alignment-adjust:central;
@@ -110,7 +110,7 @@ aside{
 	border:2px solid #a1a1a1;
 	padding:10px 40px; 
 	border-radius:25px;
-	background-color: #295555;
+	background-color: #006b53;
 	text-align:center;
 } 
 #section2 h2:hover {
@@ -119,7 +119,7 @@ aside{
 }
 #section2{
 	width:20%;
-	background-color:#800000;
+	
 	float:left;
 	border-style:solid;
 	border-left-color: yellow;
@@ -130,7 +130,7 @@ aside{
 	border:2px solid #a1a1a1;
 	padding:10px 50px; 
 	border-radius:25px;
-	background-color: #295555;
+	background-color: #006b53;
 	text-align:center;
 } 
 #section3 h2:hover {
@@ -139,7 +139,6 @@ aside{
 }
 #section3{
 	width: 22%;
-	background-color:#650070;
 	float:left;
 	margin-left:10px;
 	margin-right:10px;
@@ -148,7 +147,7 @@ aside{
 	border:2px solid #a1a1a1;
 	padding:10px 40px; 
 	border-radius:25px;
-	background-color: #295555;
+	background-color: #006b53;
 	text-align:center;
 }
 #section4 h2:hover {
@@ -157,7 +156,6 @@ aside{
 }
 #section4{
 	width: 21%;
-	background-color:#650070;
 	float:right;
 	margin-left:10px;
 	margin-right:10px;
