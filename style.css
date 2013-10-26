@@ -18,8 +18,9 @@ header{
 	min-height:70px;
 	margin-left:10%;
 	margin-right:10%;
-	/*background-color:black;*/
+	background-color:lightblue;
 	width: 80%;
+	border-radius:15px;
 }
 /*******logo RIAtec********/
 header img{
