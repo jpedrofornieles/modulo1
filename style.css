@@ -13,6 +13,7 @@ details, figcaption, figure, footer, header, hgroup, menu, nav, aside,section, s
 }
 body {
 	background-color:lightslategray;/*Fondo gris brillante*/
+	background-image: url(img/background.png);
 }
 header{
 	min-height:70px;
