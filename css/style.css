@@ -294,6 +294,11 @@ footer p{
 	margin-right:5%;
 	border-radius: 15px;
 }
+#logoback{
+	width:30px;
+	margin-top:2%;
+	margin-left:35%;
+}
 footer div {
 	margin-left: 1%;
 }
