@@ -189,8 +189,13 @@ footer{
 	background-color:white;
 	margin-left:10%;
 	margin-right:10%;
+	border-radius:15px;
+	background-color:#87CEFA;
 }
 .rojo{
 	background-color:red;
 	color:white;
+}
+footer div{
+	margin-left:1%;
 }
