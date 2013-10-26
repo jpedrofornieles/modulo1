@@ -22,6 +22,7 @@ header {
 	background: linear-gradient(#033E6B, lightblue); /* Standard syntax (must be last) */
 	width: 80%;
 	border-radius: 15px;
+	border: 1px solid #a1a1a1;
 }
 /*******logo RIAtec********/
 header img {
