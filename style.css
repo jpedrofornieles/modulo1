@@ -83,11 +83,10 @@ nav ul li a:hover{
 }
 /*********ASIDE********/
 aside{
-
 	border:2px solid #a1a1a1;
 	padding:10px 52px; 
 	border-radius:25px; /*bordes redondeados*/
-	/*margin-top:10%;*/
+	margin-top:-5px;
 	margin-left:10%;
 	margin-right:10%;
 	float:right;
