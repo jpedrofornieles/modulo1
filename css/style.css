@@ -193,7 +193,7 @@ img.icono {
 	border-radius: 15px;
 	background-color: rgb(255, 175, 29);
 	padding-bottom: 15px;
-	background: rgb(255, 175, 30) url(img/noise.png);
+	background: rgb(255, 175, 30) url(../img/noise.png);
 }
 
 #content h1 {
@@ -222,10 +222,13 @@ img.icono {
 	margin-left: 24px;
 	margin-right: 10px;
 	border-radius: 12px;
+	box-shadow: 0px 0px 0px 1px #2b2b2b;
+	-moz-box-shadow: 0px 0px 0px 1px #2b2b2b;
 	-webkit-box-shadow: 0px 0px 0px 1px #2b2b2b;
 	padding: 15px 20px;
-	background: rgb(88, 144, 243) url(img/noise.png);
-	height: 555px;
+	background: rgb(88, 144, 243) url(../img/noise.png);
+	height: 560px;
+
 }
 #section5 a{
 	color: rgb(5, 21, 139);
