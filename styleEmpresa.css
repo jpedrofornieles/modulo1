@@ -14,6 +14,8 @@ details, figcaption, figure, footer, header, hgroup, menu, nav, aside,section, s
 body{
 	margin-left:10%;
 	margin-right:10%;
+	background-color: lightslategray;/*Fondo gris brillante*/
+	background-image: url(img/background.png);
 }
 header{
 	margin-top:10px;
