@@ -18,7 +18,7 @@ header{
 	min-height:70px;
 	margin-left:10%;
 	margin-right:10%;
-	background-color:black;
+	/*background-color:black;*/
 	width: 80%;
 }
 /*******logo RIAtec********/
@@ -60,11 +60,7 @@ nav ul li a {
 }
 nav ul li a:hover{
 	color:gold;
-	border: 1px solid;
-	border-top-color:white;
-	border-right-color:white;
-	border-left-color:black;
-	border-bottom-color:black;
+	box-shadow: 1px -1px 0px white;
 }
 /*********IMAGEN*******/
 #art-img-web{
