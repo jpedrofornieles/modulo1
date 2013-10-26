@@ -22,6 +22,7 @@ header {
 	background: linear-gradient(#033E6B, lightblue); /* Standard syntax (must be last) */
 	width: 80%;
 	border-radius: 15px;
+	overflow: hidden;
 }
 /*******logo RIAtec********/
 header img {
@@ -191,12 +192,14 @@ img.icono {
 	border-radius: 15px;
 	background-color: rgb(255, 175, 29);
 	padding-bottom: 15px;
+	background: rgb(255, 175, 30) url(img/noise.png);
 }
 
 #content h1 {
 	font-size: 32px;
 	padding: 20px;
 	font-weight: normal;
+	text-shadow: 4px 8px 6px #646260;
 }
 
 #content h2 {
@@ -220,7 +223,7 @@ img.icono {
 	border-radius: 12px;
 	-webkit-box-shadow: 0px 0px 0px 1px #2b2b2b;
 	padding: 15px 20px;
-	background-color: #FFFFFF;
+	background: rgb(88, 144, 243) url(img/noise.png);
 }
 
 article p, ul, ol {
