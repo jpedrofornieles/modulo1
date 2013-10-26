@@ -205,7 +205,7 @@ img.icono {
 
 #content h2 {
 	font-size: 20px;
-	padding: 5px;
+	padding: 5px 0 10px 0;
 	font-weight: normal;
 }
 
@@ -219,12 +219,26 @@ img.icono {
 	display: inline;
 	float: left;
 	position: relative;
-	margin-left: 20px;
+	margin-left: 24px;
 	margin-right: 10px;
 	border-radius: 12px;
 	-webkit-box-shadow: 0px 0px 0px 1px #2b2b2b;
 	padding: 15px 20px;
 	background: rgb(88, 144, 243) url(img/noise.png);
+	height: 555px;
+}
+#section5 a{
+	color: rgb(5, 21, 139);
+}
+
+#section6 b{
+	font-size:14.4px;
+}
+#section6 a:hover{
+	color: rgb(5, 21, 139);
+}
+#section6 ul{
+	margin: 20px;
 }
 
 article p, ul, ol {
@@ -238,6 +252,7 @@ article p, ul, ol {
 .red {
 	background-color: red;
 	color: white;
+	font-size: 13px;
 }
 /*********FOOTER********/
 
