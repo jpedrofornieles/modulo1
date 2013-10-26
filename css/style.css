@@ -260,7 +260,7 @@ article p, ul, ol {
 /*********FOOTER********/
 
 footer {
-	background-color:white;
+	background-color:#66CCFF;
 	margin-left: 10%;
 	margin-right: 10%;
 	border-radius: 15px;
@@ -273,7 +273,9 @@ footer p{
 }
 #iconhtml{
 	float:left;
-	padding-left:2%;
+	margin-top:-2%;
+	margin-bottom:1%;
+	margin-right:2%;
 }
 #iconcss{
 	float:right;
@@ -281,9 +283,15 @@ footer p{
 	margin-bottom:1%;
 	margin-right:2%;
 }
+#html5{
+	width:110px;
+	margin-left:5%;
+	border-radius:15px;
+}
 #css3{
 	width:100px;
 	margin-right:5%;
+	border-radius: 15px;
 }
 footer div {
 	margin-left: 1%;
