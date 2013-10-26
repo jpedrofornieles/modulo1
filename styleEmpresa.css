@@ -15,6 +15,9 @@ body{
 	margin-left:10%;
 	margin-right:10%;
 }
+header{
+	margin-top:10px;
+}
 h1{
 	font-size:40px;
 }
@@ -22,9 +25,15 @@ img{
 	width:200px;
 }
 table{
-	float:right;
+	margin-left:20%;
+	margin-top:40px;
 }
-footer{
-	margin-bottom:0px;
+img:hover{
+	background-color: white ;
+	-webkit-transform: scale(1.70) ;
+  	transform: scale(1.70) ; 
 }
-
+#flecha{
+	width:100px;
+	float:left;
+}
