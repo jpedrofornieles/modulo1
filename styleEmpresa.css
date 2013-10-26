@@ -31,9 +31,9 @@ table{
 	margin-top:40px;
 }
 img:hover{
-	background-color: white ;
-	-webkit-transform: scale(1.70) ;
-  	transform: scale(1.70) ; 
+	background-color: white;
+	-webkit-transform: scale(1.70);
+  	transform: scale(1.70); 
 }
 #flecha{
 	width:100px;

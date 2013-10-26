@@ -223,13 +223,17 @@ footer{
 	background-color: #87CEFA;
 	float: left;
 	width: 80%;
-
 }
-.rojo{
-	background-color:red;
-	color:white;
-
+footer p{
+	text-align:center;
+	padding-top:2%;
 }
-footer div{
-	margin-left:1%;
+#iconhtml{
+	float:left;
+}
+#iconcss{
+	float:right;
+}
+#css3{
+	width:100px;
 }
