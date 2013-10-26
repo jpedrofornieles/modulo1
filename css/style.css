@@ -10,7 +10,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 }
 body {
 	background-color: lightslategray;/*Fondo gris brillante*/
-	background-image: url(img/background.png);
+	background-image: url(../img/background.png);
 }
 header {
 	min-height: 70px;
@@ -193,7 +193,7 @@ img.icono {
 	border-radius: 15px;
 	background-color: rgb(255, 175, 29);
 	padding-bottom: 15px;
-	background: rgb(255, 175, 30) url(img/noise.png);
+	background: rgb(255, 175, 30) url(../img/noise.png);
 }
 
 #content h1 {
@@ -222,10 +222,13 @@ img.icono {
 	margin-left: 24px;
 	margin-right: 10px;
 	border-radius: 12px;
+	box-shadow: 0px 0px 0px 1px #2b2b2b;
+	-moz-box-shadow: 0px 0px 0px 1px #2b2b2b;
 	-webkit-box-shadow: 0px 0px 0px 1px #2b2b2b;
 	padding: 15px 20px;
-	background: rgb(88, 144, 243) url(img/noise.png);
-	height: 555px;
+	background: rgb(88, 144, 243) url(../img/noise.png);
+	height: 560px;
+
 }
 #section5 a{
 	color: rgb(5, 21, 139);
