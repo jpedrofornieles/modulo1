@@ -23,7 +23,7 @@ header {
 	width: 80%;
 	border-radius: 15px;
 	border: 1px solid #a1a1a1;
-	position:fixed
+	
 }
 /*******logo RIAtec********/
 header img {
@@ -34,6 +34,7 @@ header img {
 	float: left;
 	padding-top: 1%;
 	padding-left: 2%;
+	position:fixed
 }
 /**********MENÚ*********/
 nav {
