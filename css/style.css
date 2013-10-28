@@ -23,6 +23,7 @@ header {
 	width: 80%;
 	border-radius: 15px;
 	border: 1px solid #a1a1a1;
+	position:fixed
 }
 /*******logo RIAtec********/
 header img {
@@ -116,7 +117,7 @@ aside {
 	text-align: center;
 }
 #section2 h2:hover {
-	color: gray;
+	color: yellow;
 	background-color: white;
 }
 #section2 {
@@ -138,7 +139,7 @@ aside {
 	text-align: center;
 }
 #section3 h2:hover {
-	color: gray;
+	color: yellow;
 	background-color: white;
 }
 #section3 {
@@ -158,10 +159,11 @@ aside {
 	background: -moz-linear-gradient(#006b53, lightblue); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(#006b53, lightblue); /* Standard syntax (must be last) */
 	text-align: center;
+	
 }
 #section4 h2:hover {
-	color: gray;
-	background-color: white;
+	color: yellow;
+	background-color: black;
 }
 #section4 {
 	width: 21%;
@@ -219,7 +221,7 @@ img.icono {
 	width: 26%;
 	display: inline;
 	float: left;
-	position: relative;
+	/*position: relative;*/
 	margin-left: 24px;
 	margin-right: 10px;
 	border-radius: 12px;
