@@ -158,7 +158,6 @@ img.icono {
 	height: 60px;
 }
 /****articulo**********/
-
 #info {
 	width: 100%;
 	float: left;
@@ -206,8 +205,6 @@ img.icono {
 	-webkit-box-shadow: 0px 0px 0px 1px #2b2b2b;
 	padding: 15px 20px;
 	background: rgb(88, 144, 243) url(../img/noise.png);
-	height: 575px;
-
 }
 #section5 a{
 	color: rgb(5, 21, 139);
@@ -222,7 +219,6 @@ img.icono {
 #section6 ul{
 	margin: 20px;
 }
-
 article p, ul, ol {
 	padding-left: 0px;
 	padding-right: 0px;
@@ -245,10 +241,13 @@ footer {
 	border-radius: 15px;
 	float: left;
 	width: 80%;
+	display:inline-block;
+	vertical-align:super;
 }
 footer p{
 	text-align:center;
 	padding-top:2%;
+	min-height: 70px;
 }
 #iconhtml{
 	float:left;
@@ -274,4 +273,9 @@ footer p{
 }
 footer div {
 	margin-left: 1%;
+}
+#logoback{
+	width:30px;
+	margin-top:2%;
+	margin-left:35%;
 }
