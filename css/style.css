@@ -244,10 +244,13 @@ footer {
 	border-radius: 15px;
 	float: left;
 	width: 80%;
+	display:inline-block;
+	vertical-align:super;
 }
 footer p{
 	text-align:center;
 	padding-top:2%;
+	min-height: 70px;
 }
 #iconhtml{
 	float:left;
